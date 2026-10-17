@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "version": "momride-data-20261017-01",
+  "archive_url": "https://raw.githubusercontent.com/leo692218-wq/-MomRide-Public-Data/5779d0775db673ab6c2854752dcb29d78aa2db36/data/intercity/releases/momride-data-20261017-01/intercity-snapshot.zip",
+  "archive_bytes": 2695860,
+  "archive_sha256": "b1a9e63a387e6176b77f6f83988a0410fa57df56ca59e0bf597256488ced9788",
+  "database_sha256": "75e7f2e3f3d78ab25af53a019fbbb8e7efe68aa6042bd806495db8c236d5b501",
+  "build_utc": "2026-10-16T16:19:39.464536+00:00",
+  "data_evidence": "static_weekly_only",
+  "calendar_date_certified": false,
+  "od_fare_permission_certified": false,
+  "safe_for_unqualified_boarding_claim": false
+}
