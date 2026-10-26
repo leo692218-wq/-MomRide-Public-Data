@@ -1,8 +1,6 @@
 name: TRA prebuilt SQLite V2 one-time official feed conversion
 on:
-  push:
-    paths:
-      - 'tools/tra-sqlite-bootstrap-20261027.txt'
+  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
