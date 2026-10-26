@@ -1,6 +1,9 @@
-name: Publish verified compact TRA timetable (manual, no Android build)
+name: Publish verified compact TRA timetable (weekly or manual, no Android build)
 on:
   workflow_dispatch:
+  schedule:
+    # Once per week, 08:25 Taiwan on Monday. Never on each commit.
+    - cron: '25 0 * * 1' 
 permissions:
   contents: write
 concurrency:
@@ -9,7 +12,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 18
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
