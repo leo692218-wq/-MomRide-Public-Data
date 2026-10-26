@@ -5,3 +5,5 @@ Retry after one-time off-phone VACUUM, measure truthful real SQLite bytes; no ad
 Measured 168779776 bytes after remote VACUUM; verified now within strict 164 MiB cap. Third and final attempt.
 
 Final bounded 40MiB archive run, already measured DB=168779776B, refuse oversize and report archive size.
+
+Release path corrected and synthetic publisher test now asserts data/tra/releases/ output. Reuse public verified V1 only.
