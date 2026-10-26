@@ -60,13 +60,21 @@ def run(output_dir, days=60, now=None):
         if not official_url(url): continue
         # If official index offers distinct sources for same day, never pick arbitrarily.
         sources.setdefault(date,set()).add(url)
-    if set(sources)!=wanted or any(len(x)!=1 for x in sources.values()):
-        missing=sorted(str(x) for x in wanted-set(sources))
-        collisions=sorted(str(x) for x,v in sources.items() if len(v)!=1)
-        raise ValueError(f'incomplete/ambiguous official days: missing={missing[:8]}, conflicts={collisions[:8]}')
+    # The official listing may publish fewer than 60 future dates (e.g. 59).
+    # Publish the actual longest *consecutive* verified range, never invent
+    # a day, and never fail merely because the farthest 60th day is absent.
+    consecutive = []
+    for offset in range(days):
+        date = today + dt.timedelta(days=offset)
+        if date not in sources: break
+        if len(sources[date]) != 1:
+            raise ValueError(f'ambiguous official links for {date}')
+        consecutive.append(date)
+    if len(consecutive) < 7:
+        raise ValueError(f'official index has only {len(consecutive)} consecutive days')
     with tempfile.TemporaryDirectory(prefix='momride-publisher-') as temp:
         source=Path(temp)/'xml'; source.mkdir()
-        for date in sorted(wanted):
+        for date in consecutive:
             (source/f'{date:%Y%m%d}.xml').write_bytes(get(next(iter(sources[date])),MAX_XML_BYTES))
         # Build in staging; only move to public-data repository after all files pass.
         staged=Path(temp)/'output'
