@@ -26,6 +26,7 @@ with tempfile.TemporaryDirectory() as td:
     mf=root/'latest.tsv'
     mf.write_text(f'MOMRIDE_TRA_V1\t{start}\t{end}\t{name}\t{(source/name).stat().st_size}\t{sha(source/name)}\t700\t1400\n')
     result=write_from_v1(mf,source,out)
+    assert Path(result['zip']).parent == out/'releases', 'must publish at URL used by Android'
     with zipfile.ZipFile(result['zip']) as z:
         assert z.namelist()==['timetable.sqlite']
         db_path=root/'from_package.sqlite';db_path.write_bytes(z.read('timetable.sqlite'))
