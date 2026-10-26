@@ -146,7 +146,7 @@ def write_from_v1(manifest_path, release_dir, output_dir):
         print(f'PREBUILT_REAL_ZIP_BYTES={archive.stat().st_size}', flush=True)
         if archive.stat().st_size > MAX_PACK:
             archive.unlink()
-            raise ValueError('Prebuilt ZIP beyond phone 24 MiB limit')
+            raise ValueError('Prebuilt ZIP exceeds strict 40 MiB limit')
         fields=[V2,str(start),str(end),dest_name,str(archive.stat().st_size),sha256(archive),
                 str(trip_count),str(stop_count),str(db_path.stat().st_size),sha256(db_path)]
         (target / 'latest-sqlite.tsv').write_text('\t'.join(fields)+'\n',encoding='utf-8')
