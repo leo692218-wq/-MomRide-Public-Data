@@ -1,0 +1,1 @@
+ONE bounded verified publication: convert existing government V1 2026-10-27..2026-12-24 (SHA documented) into seven-day indexed SQLite shards, no new XML downloads.
