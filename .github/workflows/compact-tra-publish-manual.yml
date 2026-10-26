@@ -20,11 +20,15 @@ jobs:
           python-version: '3.12'
       - name: Download real official TRA XML and build compact publication
         run: python tools/fetch_official_tra_xml.py --output-dir data/tra --days 60
+      - name: Build verified ready-to-open SQLite outside phones
+        run: |
+          python tools/test_prebuilt_tra_sqlite.py
+          python tools/build_prebuilt_tra_sqlite.py --manifest data/tra/latest.tsv --release-dir data/tra/releases --output-dir data/tra
       - name: Commit only real, fully audited compact timetables
         run: |
           git config user.name 'MomRide compact data publisher'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/tra/latest.tsv data/tra/source-provenance.json data/tra/releases/
+          git add data/tra/latest.tsv data/tra/latest-sqlite.tsv data/tra/source-provenance.json data/tra/releases/
           if git diff --staged --quiet; then echo 'No data change'; exit 0; fi
           git commit -m 'data(tra): publish verified compact timetable [skip ci]'
           git push
