@@ -163,8 +163,17 @@ def build(source_dir, dest_dir, minimum=100):
             raise ValueError('record limits exceeded')
         name=f"tra-{dates[0]:%Y%m%d}-{dates[-1]:%Y%m%d}.zip"
         archive=releases/name
-        with zipfile.ZipFile(archive,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as z:
-            z.write(trip_file,'trips.tsv'); z.write(stop_file,'stops.tsv')
+        # Deterministic timestamps and stable entry order make the pack SHA
+        # identical when source rows are identical. This avoids making every
+        # mother's phone redownload 10MB for a meaningless rebuild timestamp.
+        import shutil
+        with zipfile.ZipFile(archive,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=9) as z:
+            for source, arc in ((trip_file,'trips.tsv'),(stop_file,'stops.tsv')):
+                info=zipfile.ZipInfo(arc,date_time=(1980,1,1,0,0,0))
+                info.compress_type=zipfile.ZIP_DEFLATED
+                info._compresslevel=9
+                with z.open(info,'w') as output, source.open('rb') as input_file:
+                    shutil.copyfileobj(input_file,output,128*1024)
     size=archive.stat().st_size
     if size>MAX_PACK_BYTES:
         archive.unlink()
