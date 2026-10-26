@@ -1,0 +1,31 @@
+name: TRA prebuilt SQLite V2 one-time official feed conversion
+on:
+  push:
+    paths:
+      - 'tools/tra-sqlite-bootstrap-20261027.txt'
+permissions:
+  contents: write
+concurrency:
+  group: momride-tra-feed
+  cancel-in-progress: false
+jobs:
+  build-prebuilt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test and convert last SHA-verified genuine TRA public pack
+        run: |
+          python tools/test_prebuilt_tra_sqlite.py
+          python tools/build_prebuilt_tra_sqlite.py --manifest data/tra/latest.tsv --release-dir data/tra/releases --output-dir data/tra
+      - name: Commit only real source-derived SQLite publication
+        run: |
+          git config user.name 'MomRide compact data publisher'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/tra/latest-sqlite.tsv data/tra/releases/tra-sqlite-*.zip
+          if git diff --staged --quiet; then echo 'No source change'; exit 0; fi
+          git commit -m 'data(tra): one-time verified prebuilt SQLite V2 [skip ci]'
+          git push
