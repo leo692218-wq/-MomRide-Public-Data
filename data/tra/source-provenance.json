@@ -1,0 +1,421 @@
+{
+  "format": "MOMRIDE_TRA_V1",
+  "origin": "Taiwan Railways official daily XML",
+  "source_files": [
+    {
+      "date": "2026-10-27",
+      "file": "20261027.xml",
+      "sha256": "54e4bfb28eb8b97c1358ec7f91fb594974bc89655cdd613f0e610ee755920888",
+      "trips": 908,
+      "stops": 21053
+    },
+    {
+      "date": "2026-10-28",
+      "file": "20261028.xml",
+      "sha256": "eca16c29445d6adca505ec1a56d9ce9b861752f008b6f8d6507a189d2c8e6d86",
+      "trips": 908,
+      "stops": 21028
+    },
+    {
+      "date": "2026-10-29",
+      "file": "20261029.xml",
+      "sha256": "45f359b88b1bc0bbaabbdbdd57c47c9650c9ea719321192691a5a7b2d99a2844",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-10-30",
+      "file": "20261030.xml",
+      "sha256": "588748658a96f2b9139bdda8fc3b9ec54eb42d5343d34620195ca1e9ff8926bc",
+      "trips": 927,
+      "stops": 21253
+    },
+    {
+      "date": "2026-10-31",
+      "file": "20261031.xml",
+      "sha256": "878a6a84b2c04c84611257fdf3f4691dd5699e2c995baeafc04cf26c4ceed3c6",
+      "trips": 911,
+      "stops": 20995
+    },
+    {
+      "date": "2026-11-01",
+      "file": "20261101.xml",
+      "sha256": "cfa9e3e9ef210b08c2994573ce297a1b8ab0e0c6b14572db4770b0e242486f2a",
+      "trips": 919,
+      "stops": 21089
+    },
+    {
+      "date": "2026-11-02",
+      "file": "20261102.xml",
+      "sha256": "096256bf4a3ea9e5a12e84a46598f94c505e17fdc05eaba527ac38876762d5a4",
+      "trips": 909,
+      "stops": 21075
+    },
+    {
+      "date": "2026-11-03",
+      "file": "20261103.xml",
+      "sha256": "e0db3c5e06282baca51c546bfb88bf1ffe862b47f80428277cada3fcc9dd170e",
+      "trips": 906,
+      "stops": 21013
+    },
+    {
+      "date": "2026-11-04",
+      "file": "20261104.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-05",
+      "file": "20261105.xml",
+      "sha256": "78e8c6404ef0aad3357d3b2556abcdac73609e9a307537c916a23ea6575de488",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-11-06",
+      "file": "20261106.xml",
+      "sha256": "b8b520192ca5002c34e584e0e6d79680b49cc5e001f33d19be3e103ed3cfd021",
+      "trips": 927,
+      "stops": 21270
+    },
+    {
+      "date": "2026-11-07",
+      "file": "20261107.xml",
+      "sha256": "517637feae42114c6c530b3dc22e9e64982fb00ded8306e49d4f37abe29c07c2",
+      "trips": 912,
+      "stops": 20982
+    },
+    {
+      "date": "2026-11-08",
+      "file": "20261108.xml",
+      "sha256": "2cf755f3623c010b347af79a278a8616315f5b1e87cb4deff78550d98eb197d8",
+      "trips": 920,
+      "stops": 21114
+    },
+    {
+      "date": "2026-11-09",
+      "file": "20261109.xml",
+      "sha256": "5750e78df8618957eecaad019c52d2a279aa9ad43515bf437e1103d75ae875c7",
+      "trips": 908,
+      "stops": 21076
+    },
+    {
+      "date": "2026-11-10",
+      "file": "20261110.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-11",
+      "file": "20261111.xml",
+      "sha256": "b3b217ea036991b089099c37898d0d7c6fa713679e17b8162a9a0bdb7355957e",
+      "trips": 910,
+      "stops": 21030
+    },
+    {
+      "date": "2026-11-12",
+      "file": "20261112.xml",
+      "sha256": "78e8c6404ef0aad3357d3b2556abcdac73609e9a307537c916a23ea6575de488",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-11-13",
+      "file": "20261113.xml",
+      "sha256": "5bf862ef50f8bba876733b7b3c19460ecc941098f92a498fccc93dba1b00bd31",
+      "trips": 929,
+      "stops": 21269
+    },
+    {
+      "date": "2026-11-14",
+      "file": "20261114.xml",
+      "sha256": "fa2f2e90a7a80a0629816f3b866725f5b106a8c834c95bff0bb702d37f98aebf",
+      "trips": 909,
+      "stops": 20969
+    },
+    {
+      "date": "2026-11-15",
+      "file": "20261115.xml",
+      "sha256": "51234903c89eab9cab4893872feb4f3c53999ec7288daab5cc9c0ab9ff8717f8",
+      "trips": 918,
+      "stops": 21091
+    },
+    {
+      "date": "2026-11-16",
+      "file": "20261116.xml",
+      "sha256": "25dec5eddb84a3fb973de45a2b3548ae27e6e6a2cb1cf2cd09a536c20bfe5be3",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2026-11-17",
+      "file": "20261117.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-18",
+      "file": "20261118.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-19",
+      "file": "20261119.xml",
+      "sha256": "78e8c6404ef0aad3357d3b2556abcdac73609e9a307537c916a23ea6575de488",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-11-20",
+      "file": "20261120.xml",
+      "sha256": "c209f540c0236fe23b7621f0c210ffbd4f07c387fb77167237c4f899d3cc1848",
+      "trips": 925,
+      "stops": 21256
+    },
+    {
+      "date": "2026-11-21",
+      "file": "20261121.xml",
+      "sha256": "2a64a91b3542347133e7f431c297dc67f328033c2f94f31d408b1f76b6179be1",
+      "trips": 908,
+      "stops": 20971
+    },
+    {
+      "date": "2026-11-22",
+      "file": "20261122.xml",
+      "sha256": "8a5c6b4d39c9ca1f7d0ee4ce0517ff3e44e3c5e304262d5dc4c399321effc7a8",
+      "trips": 919,
+      "stops": 21101
+    },
+    {
+      "date": "2026-11-23",
+      "file": "20261123.xml",
+      "sha256": "25dec5eddb84a3fb973de45a2b3548ae27e6e6a2cb1cf2cd09a536c20bfe5be3",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2026-11-24",
+      "file": "20261124.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-25",
+      "file": "20261125.xml",
+      "sha256": "f308047046002856b8c30b8ecc72402b23ba2c871aa23520ca1b0706e451cf3b",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-11-26",
+      "file": "20261126.xml",
+      "sha256": "294e249e0d28f5a0a04c226fc608246334c846271a2559dee23c20de6ee23ec8",
+      "trips": 906,
+      "stops": 21013
+    },
+    {
+      "date": "2026-11-27",
+      "file": "20261127.xml",
+      "sha256": "f083e9a867125d062acfd472cee5b198652bdcb1880ab967e0a01b1f1fc23240",
+      "trips": 930,
+      "stops": 21325
+    },
+    {
+      "date": "2026-11-28",
+      "file": "20261128.xml",
+      "sha256": "05cba9626d905a699fff914001ae5fc1624177b4b9e58fe2e1d57b198ee37357",
+      "trips": 912,
+      "stops": 21025
+    },
+    {
+      "date": "2026-11-29",
+      "file": "20261129.xml",
+      "sha256": "a2eb57bd000654910c836d869a8364c51d0df4b50176eeaaaa33b666952f7cb9",
+      "trips": 921,
+      "stops": 21157
+    },
+    {
+      "date": "2026-11-30",
+      "file": "20261130.xml",
+      "sha256": "13b9613d901c9f6731715813a0fa66cc3715ae7931a37c64305823d31099e640",
+      "trips": 911,
+      "stops": 21114
+    },
+    {
+      "date": "2026-12-01",
+      "file": "20261201.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-02",
+      "file": "20261202.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-03",
+      "file": "20261203.xml",
+      "sha256": "e1fe95983403489557117d031717d48134e7aba8e08a2b6f4a9012f4d4038528",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-12-04",
+      "file": "20261204.xml",
+      "sha256": "d8f04c08a44d424543c6c42ca004589d971954719e6e3085cdf45a9e8e929586",
+      "trips": 925,
+      "stops": 21256
+    },
+    {
+      "date": "2026-12-05",
+      "file": "20261205.xml",
+      "sha256": "795166e4c4d47cfebb2999a0b365201aa52d43eefc8ae2bd44ff94dbc3c49f18",
+      "trips": 906,
+      "stops": 20954
+    },
+    {
+      "date": "2026-12-06",
+      "file": "20261206.xml",
+      "sha256": "2bca86f5c1b86ba022330c61b82c7c27f3215e2d396e5a8ff85ef73195c7cb9b",
+      "trips": 919,
+      "stops": 21093
+    },
+    {
+      "date": "2026-12-07",
+      "file": "20261207.xml",
+      "sha256": "9a337241f9c883dbc416b86f38df2642dce0ae64d1093a02e698c8c8ebd60d90",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2026-12-08",
+      "file": "20261208.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-09",
+      "file": "20261209.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-10",
+      "file": "20261210.xml",
+      "sha256": "e1fe95983403489557117d031717d48134e7aba8e08a2b6f4a9012f4d4038528",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-12-11",
+      "file": "20261211.xml",
+      "sha256": "d8f04c08a44d424543c6c42ca004589d971954719e6e3085cdf45a9e8e929586",
+      "trips": 925,
+      "stops": 21256
+    },
+    {
+      "date": "2026-12-12",
+      "file": "20261212.xml",
+      "sha256": "728781c4ff5ffa7a6a95ba0abd826f496274824cc0ddc50181f790414b06e700",
+      "trips": 908,
+      "stops": 20971
+    },
+    {
+      "date": "2026-12-13",
+      "file": "20261213.xml",
+      "sha256": "5995ce9ba18259e98fd1cc37ff5e06ac87eb6c657b6abb0f75a8c30c35fe48a6",
+      "trips": 917,
+      "stops": 21087
+    },
+    {
+      "date": "2026-12-14",
+      "file": "20261214.xml",
+      "sha256": "9a337241f9c883dbc416b86f38df2642dce0ae64d1093a02e698c8c8ebd60d90",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2026-12-15",
+      "file": "20261215.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-16",
+      "file": "20261216.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-17",
+      "file": "20261217.xml",
+      "sha256": "e1fe95983403489557117d031717d48134e7aba8e08a2b6f4a9012f4d4038528",
+      "trips": 907,
+      "stops": 21019
+    },
+    {
+      "date": "2026-12-18",
+      "file": "20261218.xml",
+      "sha256": "d8f04c08a44d424543c6c42ca004589d971954719e6e3085cdf45a9e8e929586",
+      "trips": 925,
+      "stops": 21256
+    },
+    {
+      "date": "2026-12-19",
+      "file": "20261219.xml",
+      "sha256": "c1f151c4839c4f671fc079e1f3e35be2eab9bacff73c7461d37bc9378a1a43f5",
+      "trips": 907,
+      "stops": 20967
+    },
+    {
+      "date": "2026-12-20",
+      "file": "20261220.xml",
+      "sha256": "5995ce9ba18259e98fd1cc37ff5e06ac87eb6c657b6abb0f75a8c30c35fe48a6",
+      "trips": 917,
+      "stops": 21087
+    },
+    {
+      "date": "2026-12-21",
+      "file": "20261221.xml",
+      "sha256": "9a337241f9c883dbc416b86f38df2642dce0ae64d1093a02e698c8c8ebd60d90",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2026-12-22",
+      "file": "20261222.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-23",
+      "file": "20261223.xml",
+      "sha256": "ea1a68ea5edcb87e91ff585a16d5022c5a4ff08c73dd075ff42846370f96fed6",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2026-12-24",
+      "file": "20261224.xml",
+      "sha256": "8fd845b377a30bf26fda669ad8f3d0741d96bdb12d2cb1140e1abd9156f27a32",
+      "trips": 908,
+      "stops": 21028
+    }
+  ],
+  "pack_sha256": "410526c88c9b333c8daabf1e75c85f82130902688e36bafea6c119090a46c189",
+  "pack_bytes": 9799208
+}
