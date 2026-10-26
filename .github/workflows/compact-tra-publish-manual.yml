@@ -24,11 +24,15 @@ jobs:
         run: |
           python tools/test_prebuilt_tra_sqlite.py
           python tools/build_prebuilt_tra_sqlite.py --manifest data/tra/latest.tsv --release-dir data/tra/releases --output-dir data/tra
+      - name: Verify and publish date-window SQLite without phone-side bulk imports
+        run: |
+          python tools/test_weekly_tra_shards.py
+          python tools/build_weekly_tra_shards.py --manifest data/tra/latest.tsv --release-dir data/tra/releases --output-dir data/tra
       - name: Commit only real, fully audited compact timetables
         run: |
           git config user.name 'MomRide compact data publisher'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-          git add data/tra/latest.tsv data/tra/latest-sqlite.tsv data/tra/source-provenance.json data/tra/releases/
+          git add data/tra/latest.tsv data/tra/latest-sqlite.tsv data/tra/latest-shards.tsv data/tra/source-provenance.json data/tra/releases/
           if git diff --staged --quiet; then echo 'No data change'; exit 0; fi
           git commit -m 'data(tra): publish verified compact timetable [skip ci]'
           git push
