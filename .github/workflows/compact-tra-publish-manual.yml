@@ -1,9 +1,6 @@
 name: Publish verified compact TRA timetable (manual, no Android build)
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - 'tools/compact-tra-publish-trigger.txt'
 permissions:
   contents: write
 concurrency:
