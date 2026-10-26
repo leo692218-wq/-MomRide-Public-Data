@@ -125,7 +125,12 @@ def write_from_v1(manifest_path, release_dir, output_dir):
         db.commit()
         if db.execute('PRAGMA quick_check').fetchone()[0] != 'ok':
             raise ValueError('Prebuilt SQLite physical integrity failure')
+        # The builder (not the phone) can afford a one-time database compaction.
+        db.execute('ANALYZE')
+        db.commit()
+        db.execute('VACUUM')
         db.close()
+        print(f'PREBUILT_REAL_SQLITE_BYTES={db_path.stat().st_size}', flush=True)
         if db_path.stat().st_size > MAX_DB:
             raise ValueError('Prebuilt SQLite too large for mobile')
         dest_name = f'tra-sqlite-{start:%Y%m%d}-{end:%Y%m%d}.zip'
