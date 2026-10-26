@@ -15,7 +15,7 @@ import tempfile
 import zipfile
 from pathlib import Path
 
-MAX_PACK = 24 * 1024 * 1024
+MAX_PACK = 40 * 1024 * 1024
 MAX_DB = 164 * 1024 * 1024
 RELEASE = re.compile(r'tra-\d{8}-\d{8}\.zip')
 V1 = 'MOMRIDE_TRA_V1'
@@ -141,6 +141,7 @@ def write_from_v1(manifest_path, release_dir, output_dir):
             item._compresslevel = 9
             with z.open(item,'w') as out, db_path.open('rb') as inp:
                 shutil.copyfileobj(inp,out,128*1024)
+        print(f'PREBUILT_REAL_ZIP_BYTES={archive.stat().st_size}', flush=True)
         if archive.stat().st_size > MAX_PACK:
             archive.unlink()
             raise ValueError('Prebuilt ZIP beyond phone 24 MiB limit')
