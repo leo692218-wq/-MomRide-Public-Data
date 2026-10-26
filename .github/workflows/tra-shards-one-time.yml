@@ -1,8 +1,6 @@
 name: TRA weekly shards first verified publication (one time)
 on:
-  push:
-    paths:
-      - 'tools/tra-shards-bootstrap-20261027.txt'
+  workflow_dispatch:
 permissions:
   contents: write
 concurrency:
