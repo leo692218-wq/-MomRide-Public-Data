@@ -7,7 +7,7 @@
 - `source-provenance.json`：政府每日 XML 各來源 SHA-256 與產物紀錄。
 
 外部產製：`python tools/fetch_official_tra_xml.py --output-dir data/tra --days 60`。
-僅限資料維護時使用，並可透過手動觸發的 `.github/workflows/compact-tra-publish-manual.yml` 運行；**未安排週期性 GitHub Actions，避免浪費額度**。
+資料發布目前採**每週一台灣時間 08:25** 或明確手動觸發的 `.github/workflows/compact-tra-publish-manual.yml`，**不在每次程式碼提交時執行**；單次工作限時 10 分鐘，且只有真實資料通過完整驗證才可更新發行。這是付費／有額度的 GitHub Actions，需持續注意使用量。手機仍僅在發行 SHA 改變時才下載資料包。
 
 **首次真資料已發佈（2026-10-27）**：GitHub Actions Run 40362713025 真實執行成功；59份臺鐵官方每日XML整理為 2026-10-27 至 2026-12-24（59日）、53,769車次、1,242,866筆停靠、9,799,208位元組 ZIP。SHA-256 `410526c88c9b333c8daabf1e75c85f82130902688e36bafea6c119090a46c189`。仍須完成 Android 端真連線／SQLite匯入、使用者手機與完整API36驗收；不能把GitHub成功視為手機已驗收。
 
