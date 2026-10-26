@@ -3,3 +3,5 @@ Single conversion of existing genuine SHA-verified TRA 2026-10-27 to 2026-12-24 
 Retry after one-time off-phone VACUUM, measure truthful real SQLite bytes; no additional official XML requests.
 
 Measured 168779776 bytes after remote VACUUM; verified now within strict 164 MiB cap. Third and final attempt.
+
+Final bounded 40MiB archive run, already measured DB=168779776B, refuse oversize and report archive size.
