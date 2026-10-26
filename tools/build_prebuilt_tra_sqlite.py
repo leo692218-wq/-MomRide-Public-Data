@@ -134,7 +134,9 @@ def write_from_v1(manifest_path, release_dir, output_dir):
         if db_path.stat().st_size > MAX_DB:
             raise ValueError('Prebuilt SQLite too large for mobile')
         dest_name = f'tra-sqlite-{start:%Y%m%d}-{end:%Y%m%d}.zip'
-        archive = target / dest_name
+        release_dir = target / 'releases'
+        release_dir.mkdir(parents=True, exist_ok=True)
+        archive = release_dir / dest_name
         with zipfile.ZipFile(archive,'w') as z:
             item = zipfile.ZipInfo('timetable.sqlite', date_time=(1980,1,1,0,0,0))
             item.compress_type = zipfile.ZIP_DEFLATED
