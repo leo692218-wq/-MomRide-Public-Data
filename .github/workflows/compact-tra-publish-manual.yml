@@ -1,0 +1,27 @@
+name: Publish verified compact TRA timetable (manual, no Android build)
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: momride-tra-feed
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download real official TRA XML and build compact publication
+        run: python tools/fetch_official_tra_xml.py --output-dir data/tra --days 60
+      - name: Commit only real, fully audited compact timetables
+        run: |
+          git config user.name 'MomRide compact data publisher'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/tra/latest.tsv data/tra/source-provenance.json data/tra/releases/
+          if git diff --staged --quiet; then echo 'No data change'; exit 0; fi
+          git commit -m 'data(tra): publish verified compact timetable [skip ci]'
+          git push
