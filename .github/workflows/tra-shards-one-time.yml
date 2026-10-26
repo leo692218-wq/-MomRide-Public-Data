@@ -1,0 +1,35 @@
+name: TRA weekly shards first verified publication (one time)
+on:
+  push:
+    paths:
+      - 'tools/tra-shards-bootstrap-20261027.txt'
+permissions:
+  contents: write
+concurrency:
+  group: momride-tra-feed
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify source-preserving shard compiler with synthetic fixtures
+        run: python tools/test_weekly_tra_shards.py
+      - name: Build compact shards only from published SHA-verified official V1
+        run: |
+          python tools/build_weekly_tra_shards.py \
+            --manifest data/tra/latest.tsv \
+            --release-dir data/tra/releases \
+            --output-dir data/tra
+      - name: Publish audited shards only after all verification
+        run: |
+          git config user.name 'MomRide data publisher'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/tra/latest-shards.tsv data/tra/releases/tra-shard-*.zip
+          if git diff --staged --quiet; then echo 'No verified change'; exit 0; fi
+          git commit -m 'data(tra): publish verified small 7-day SQLite shards [skip ci]'
+          git push
