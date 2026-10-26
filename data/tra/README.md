@@ -9,7 +9,7 @@
 外部產製：`python tools/fetch_official_tra_xml.py --output-dir data/tra --days 60`。
 僅限資料維護時使用，並可透過手動觸發的 `.github/workflows/compact-tra-publish-manual.yml` 運行；**未安排週期性 GitHub Actions，避免浪費額度**。
 
-**注意：現在尚未發佈任何真實臺鐵班表 ZIP 或 latest.tsv。** 首次連線手機不會退回下載 60 份大型 XML，也不會使用測試用的虛構班次；首次使用的臺鐵查詢仍須待真實精簡包成功發佈。
+**首次真資料已發佈（2026-10-27）**：GitHub Actions Run 40362713025 真實執行成功；59份臺鐵官方每日XML整理為 2026-10-27 至 2026-12-24（59日）、53,769車次、1,242,866筆停靠、9,799,208位元組 ZIP。SHA-256 `410526c88c9b333c8daabf1e75c85f82130902688e36bafea6c119090a46c189`。仍須完成 Android 端真連線／SQLite匯入、使用者手機與完整API36驗收；不能把GitHub成功視為手機已驗收。
 
 臺鐵官方班表來源：https://ods.railway.gov.tw/tra-ods-web/ods/download/dataResource/railway_schedule/XML/list。
 
