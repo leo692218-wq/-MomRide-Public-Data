@@ -3,426 +3,426 @@
   "origin": "Taiwan Railways official daily XML",
   "source_files": [
     {
-      "date": "2026-11-02",
-      "file": "20261102.xml",
-      "sha256": "fc9b8c2f7566cae96567797cab8e2f53a518ed07f1f9a2d8354e1c1037b8c459",
-      "trips": 909,
-      "stops": 21075
-    },
-    {
-      "date": "2026-11-03",
-      "file": "20261103.xml",
-      "sha256": "b0159488d49703fb490dc2141fc892f524b38db9451d162bf5e7397ffb02323c",
-      "trips": 906,
-      "stops": 21013
-    },
-    {
-      "date": "2026-11-04",
-      "file": "20261104.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
-      "trips": 905,
-      "stops": 21011
-    },
-    {
-      "date": "2026-11-05",
-      "file": "20261105.xml",
-      "sha256": "e5c34a138a817afa589de9d33eb78ebe4d386a7d5f8a88411d507f1171f55d06",
-      "trips": 907,
-      "stops": 21019
-    },
-    {
-      "date": "2026-11-06",
-      "file": "20261106.xml",
-      "sha256": "0c819970c894c5a6e5e6932d71cc27128c65b92c89d75b915a0518248c893cea",
-      "trips": 927,
-      "stops": 21270
-    },
-    {
-      "date": "2026-11-07",
-      "file": "20261107.xml",
-      "sha256": "7101994d9f9eddef07724bebd54ed8c0c5114b16c07d0e22e26a14cde87da79c",
-      "trips": 912,
-      "stops": 20982
-    },
-    {
-      "date": "2026-11-08",
-      "file": "20261108.xml",
-      "sha256": "4ca48c554c68ab3e26e65e02db6fa25c5337368c0dd57b6c8ab91e30d57aaf5a",
-      "trips": 926,
-      "stops": 21143
-    },
-    {
       "date": "2026-11-09",
       "file": "20261109.xml",
-      "sha256": "bde365f9c46298834995893aca96587a959ed232fc3103252ddb2c8eaeaf1270",
+      "sha256": "84719d484f4af9dac00a46cec3b6d8165cd5a1be3c8b2b3afbc237e94266cfe9",
       "trips": 908,
-      "stops": 21076
+      "stops": 21079
     },
     {
       "date": "2026-11-10",
       "file": "20261110.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-11-11",
       "file": "20261111.xml",
-      "sha256": "ef1175c9017c59498096df6eba7e2d8ce50b3236d8436bd2bb0e28ee3807bc5d",
+      "sha256": "476afc4960238455c6d70a3d4bbe708b1d0c6665d797ac55afcea8d1bf3d95b7",
       "trips": 910,
       "stops": 21030
     },
     {
       "date": "2026-11-12",
       "file": "20261112.xml",
-      "sha256": "f53f0457516b77d19cefd2ad0db22666d85b68a103e9f5afa4cc9384e7a3de75",
+      "sha256": "8f916457351ed0d36de4d81b967b60ae9af6513e1057b2dda502ca60b8eaabb7",
       "trips": 915,
       "stops": 21056
     },
     {
       "date": "2026-11-13",
       "file": "20261113.xml",
-      "sha256": "d4fce72723dae762b74f0a7c7298d89b757f30168353aba316c3a62455a580ea",
+      "sha256": "e776a34311c5adbcc954abb05b34076dfc185f8ff5860ff6dd52a230a579ae04",
       "trips": 931,
       "stops": 21273
     },
     {
       "date": "2026-11-14",
       "file": "20261114.xml",
-      "sha256": "1fa9fc353ff9199f0984ab1fac69a1c30e3154a1fc7c68b3f1597056a663cf56",
+      "sha256": "f98ec49c6901ef8682e565ed613483c8bb908638b0a7a600241bf3d91fe91196",
       "trips": 920,
       "stops": 21018
     },
     {
       "date": "2026-11-15",
       "file": "20261115.xml",
-      "sha256": "7dcc7cf565f793a57b0316f0e790e235e7e216cb32e847896c3aceb0a9e6bcd4",
+      "sha256": "258c92034f7d046e62776a2fa519ebd140d7c9ad6fb299366fe4df66c1a0d6fb",
       "trips": 921,
       "stops": 21099
     },
     {
       "date": "2026-11-16",
       "file": "20261116.xml",
-      "sha256": "07976326321b17dbfa8c4ce585b9aaba3fcffeebe5f8fdbc3b17aef261f15e8a",
+      "sha256": "e918dfb862fd03d66439934f0ceae4e0d5adbb502e1c07644fede513dd1d9a95",
       "trips": 909,
       "stops": 21074
     },
     {
       "date": "2026-11-17",
       "file": "20261117.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-11-18",
       "file": "20261118.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
-      "trips": 905,
-      "stops": 21011
+      "sha256": "36e5611754e1ab225959d053900130e461fd3e5d420987d0691fb67e86ce1f8e",
+      "trips": 906,
+      "stops": 21017
     },
     {
       "date": "2026-11-19",
       "file": "20261119.xml",
-      "sha256": "e5c34a138a817afa589de9d33eb78ebe4d386a7d5f8a88411d507f1171f55d06",
+      "sha256": "1d8bc1893ac0c95a0ef34426c9915ed89d99c2e6845a54b46821886ad851da93",
       "trips": 907,
       "stops": 21019
     },
     {
       "date": "2026-11-20",
       "file": "20261120.xml",
-      "sha256": "a7530ed1134ff24d03d150190f78a48b5317599d8b3ac773a8694fe63bc4fd25",
+      "sha256": "cb85515fe20f146aaff53c3acb9e6f2c3af27a0df4f0cbda7521ebfabaf3d85e",
       "trips": 926,
       "stops": 21261
     },
     {
       "date": "2026-11-21",
       "file": "20261121.xml",
-      "sha256": "6a54281f6e069aa5ea5084c450631ded2ee496730f6397bde9992a27831873e8",
+      "sha256": "902c0260aef170e264ce5c564477f51083a854ad4a6fc7d2ba32b3f1ac35fdbd",
       "trips": 909,
       "stops": 20974
     },
     {
       "date": "2026-11-22",
       "file": "20261122.xml",
-      "sha256": "6e917652eb8c26a0673e600cf7c7f34fb5daf5dd1208483acbf2e404bd445d1d",
+      "sha256": "a5d304fab0212e5d000275c1c9f74c14fd7df98f824e866f4ce2d9dd14eddfd0",
       "trips": 920,
       "stops": 21104
     },
     {
       "date": "2026-11-23",
       "file": "20261123.xml",
-      "sha256": "8ed38b8a16dc4644ad9d9166946555db1fe9c3ce835460f40d9d50aa09bfb2f8",
+      "sha256": "49e753dbe2150147561abe339f68fc1328d13b2fb86ee01389fd1f9a2864afcb",
       "trips": 908,
       "stops": 21071
     },
     {
       "date": "2026-11-24",
       "file": "20261124.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-11-25",
       "file": "20261125.xml",
-      "sha256": "1a9d310dc317600476765065d8eac4dddfc6e7e3da40424e0182e76b9f1461e7",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-11-26",
       "file": "20261126.xml",
-      "sha256": "f97d5780a9732cb69eec841bd6c1f150c58c5e165a25be34cec8cde45f0c543e",
+      "sha256": "0fdf986401e7ef7999d2fcd2a1a40f4a6714ff73b7cd0ff6667cae4aba73436e",
       "trips": 906,
       "stops": 21013
     },
     {
       "date": "2026-11-27",
       "file": "20261127.xml",
-      "sha256": "072f2e9bc493e1d1566ae041f4cd0c33a6af5c7e3a0ca3d6a2eff55cd61d9fe8",
+      "sha256": "f2eba717ac24b64929f39aa140f3e4549793df81178a9e785b25732f9f26a096",
       "trips": 931,
       "stops": 21331
     },
     {
       "date": "2026-11-28",
       "file": "20261128.xml",
-      "sha256": "0069737e080a0e8c8288c262b59f2dc8a871d069b0913ea54f81dda66b2f97af",
+      "sha256": "91ae6035b549acc74357785bfa18ca364c541fd03997fc2306ad215c0c2457ea",
       "trips": 913,
       "stops": 21029
     },
     {
       "date": "2026-11-29",
       "file": "20261129.xml",
-      "sha256": "b742c43f9afc67e00b607b9f80bdd13c321fea8da036edfabb4373476eae8c88",
+      "sha256": "5b6e9f3e8f51f5e6d03ac7167ad890ba9aeb73a660e205bc194e8039b2a1dcf6",
       "trips": 922,
       "stops": 21160
     },
     {
       "date": "2026-11-30",
       "file": "20261130.xml",
-      "sha256": "8d36158e4ca4165275e440057b24b1ab041666bd22f57fd33436ba7f4011dcbf",
+      "sha256": "4eef63c29945a02375682b4282d968966ecf63a888ded662577e263e843244e1",
       "trips": 911,
       "stops": 21114
     },
     {
       "date": "2026-12-01",
       "file": "20261201.xml",
-      "sha256": "68a8b55b5a37576b2b1e20cdd106e76750db8ad7fd9c8f2fc5d50a63b6acf3d2",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-02",
       "file": "20261202.xml",
-      "sha256": "68a8b55b5a37576b2b1e20cdd106e76750db8ad7fd9c8f2fc5d50a63b6acf3d2",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-03",
       "file": "20261203.xml",
-      "sha256": "87517fe4d4fff9184ef8bcb94880bd0f7efabb89ebe72f942a0a6d7650eb81d4",
+      "sha256": "1d8bc1893ac0c95a0ef34426c9915ed89d99c2e6845a54b46821886ad851da93",
       "trips": 907,
       "stops": 21019
     },
     {
       "date": "2026-12-04",
       "file": "20261204.xml",
-      "sha256": "44feb04516631af8443de2d4a8ab52f0e8b81bf0f47a8d81a10f834ee89a0f48",
+      "sha256": "3b20272397a1a0027addc297be35d27eb68ff07231dcb4fc099aaf5021a11c75",
       "trips": 925,
       "stops": 21256
     },
     {
       "date": "2026-12-05",
       "file": "20261205.xml",
-      "sha256": "6a94e6bbdac7834f7f98fcd5d18f9542b1b79ee1f947c4b447e5f058f62aee48",
+      "sha256": "4dfa37c4d288c5892bff55dc1e064d1f70b86e8c5fb34338276f776ad190929c",
       "trips": 908,
       "stops": 20968
     },
     {
       "date": "2026-12-06",
       "file": "20261206.xml",
-      "sha256": "8af9872108a83c0bdb6d1517af52a36f901bd5293a361de0b369b20e0330143f",
+      "sha256": "d6929fcc2d6b113aababa7d22981a4a9f1930a4c9085a9e110b6bd2cef2b147d",
       "trips": 919,
       "stops": 21093
     },
     {
       "date": "2026-12-07",
       "file": "20261207.xml",
-      "sha256": "806d03d35f456fcbd749b6ee6253bd310f6600ddfc3715aea784b488636b11b4",
+      "sha256": "49e753dbe2150147561abe339f68fc1328d13b2fb86ee01389fd1f9a2864afcb",
       "trips": 908,
       "stops": 21071
     },
     {
       "date": "2026-12-08",
       "file": "20261208.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-09",
       "file": "20261209.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-10",
       "file": "20261210.xml",
-      "sha256": "60a4e86ccf0fe4165270d081ac149e60b3139e4e1696eee410bb32869ac4ce85",
+      "sha256": "1d8bc1893ac0c95a0ef34426c9915ed89d99c2e6845a54b46821886ad851da93",
       "trips": 907,
       "stops": 21019
     },
     {
       "date": "2026-12-11",
       "file": "20261211.xml",
-      "sha256": "19d8d58fd15b89e2f949bc7d74555792b240ccc60697d6869139a72a2b419775",
+      "sha256": "682c29604efeca73a80e116d7ef52ebae3bb7f570dfbf67fb06d385c6412d29c",
       "trips": 925,
       "stops": 21256
     },
     {
       "date": "2026-12-12",
       "file": "20261212.xml",
-      "sha256": "ccbe920f583299e87d6fe1b7837d090a662c508fe3be6bf09c7919409d10acd4",
+      "sha256": "f50b2fc92c0ac455dcad4b1aa3cdae6e4b032f328698c5f18241f55a8a76c7a6",
       "trips": 909,
       "stops": 20973
     },
     {
       "date": "2026-12-13",
       "file": "20261213.xml",
-      "sha256": "35a515e083866e02e8a4eaa0db90d0080f210a279d5c5c135f0b1d04995f4198",
+      "sha256": "811a0f0edef2654f0548b505a86c0e936330bf0b591060f3ecdc938f63cc89da",
       "trips": 917,
       "stops": 21087
     },
     {
       "date": "2026-12-14",
       "file": "20261214.xml",
-      "sha256": "06465b1e8503bbb487cbec4156c266b779186753c80c9d345224c5a869ba96da",
+      "sha256": "0638af7368c570d659e16507992e5f0bf1785b301e82ab9ec025fee8c98484f2",
       "trips": 909,
       "stops": 21073
     },
     {
       "date": "2026-12-15",
       "file": "20261215.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-16",
       "file": "20261216.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-17",
       "file": "20261217.xml",
-      "sha256": "60a4e86ccf0fe4165270d081ac149e60b3139e4e1696eee410bb32869ac4ce85",
+      "sha256": "1d8bc1893ac0c95a0ef34426c9915ed89d99c2e6845a54b46821886ad851da93",
       "trips": 907,
       "stops": 21019
     },
     {
       "date": "2026-12-18",
       "file": "20261218.xml",
-      "sha256": "19d8d58fd15b89e2f949bc7d74555792b240ccc60697d6869139a72a2b419775",
+      "sha256": "682c29604efeca73a80e116d7ef52ebae3bb7f570dfbf67fb06d385c6412d29c",
       "trips": 925,
       "stops": 21256
     },
     {
       "date": "2026-12-19",
       "file": "20261219.xml",
-      "sha256": "86a78a9f64f1b32474fd180b9976e79c0a7861f78266f9a595ef67e21e19eb8a",
+      "sha256": "b126fd9ae93efc59fb23c948babad15a12dbe72274ee6337287fee53abd0d42a",
       "trips": 907,
       "stops": 20967
     },
     {
       "date": "2026-12-20",
       "file": "20261220.xml",
-      "sha256": "35a515e083866e02e8a4eaa0db90d0080f210a279d5c5c135f0b1d04995f4198",
+      "sha256": "811a0f0edef2654f0548b505a86c0e936330bf0b591060f3ecdc938f63cc89da",
       "trips": 917,
       "stops": 21087
     },
     {
       "date": "2026-12-21",
       "file": "20261221.xml",
-      "sha256": "806d03d35f456fcbd749b6ee6253bd310f6600ddfc3715aea784b488636b11b4",
+      "sha256": "49e753dbe2150147561abe339f68fc1328d13b2fb86ee01389fd1f9a2864afcb",
       "trips": 908,
       "stops": 21071
     },
     {
       "date": "2026-12-22",
       "file": "20261222.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-23",
       "file": "20261223.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-24",
       "file": "20261224.xml",
-      "sha256": "7cc58c7ddf9c2b0e8d7b9ab363148f0935a100ad25b571ba3251112eebb2cefd",
+      "sha256": "c584d98bc0afc114ddd1cefd0d8eefb7aee0e63b374ed6e568484826dfd83c82",
       "trips": 908,
       "stops": 21028
     },
     {
       "date": "2026-12-25",
       "file": "20261225.xml",
-      "sha256": "3525558c5f268b47e391e501d10c1d18a51a1c47f0a700d0013c466f8333edec",
+      "sha256": "9b69b8c426cf1f3cba1108ac1394b95a7a9595513d0c71d5dc8cfdb205475d4f",
       "trips": 909,
       "stops": 21008
     },
     {
       "date": "2026-12-26",
       "file": "20261226.xml",
-      "sha256": "86a78a9f64f1b32474fd180b9976e79c0a7861f78266f9a595ef67e21e19eb8a",
+      "sha256": "8be881b8cebd1b54dd9dc6ea30f1a8f25be260420d9a6ac92a77b6355ab3d47b",
       "trips": 907,
       "stops": 20967
     },
     {
       "date": "2026-12-27",
       "file": "20261227.xml",
-      "sha256": "35a515e083866e02e8a4eaa0db90d0080f210a279d5c5c135f0b1d04995f4198",
+      "sha256": "c0c0aa2b05026daaf052c51a9dad7c34def1fba37129a46488b84aa0c858cf4b",
       "trips": 917,
       "stops": 21087
     },
     {
       "date": "2026-12-28",
       "file": "20261228.xml",
-      "sha256": "806d03d35f456fcbd749b6ee6253bd310f6600ddfc3715aea784b488636b11b4",
+      "sha256": "49e753dbe2150147561abe339f68fc1328d13b2fb86ee01389fd1f9a2864afcb",
       "trips": 908,
       "stops": 21071
     },
     {
       "date": "2026-12-29",
       "file": "20261229.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-30",
       "file": "20261230.xml",
-      "sha256": "03257040ff3f0622d0752c7b151ce89e1fd3b417825f1e5308aee34e5329b23b",
+      "sha256": "da488bcf035433b1d488886aef1274156f2196abf14a88a91a8a1176a1d81857",
       "trips": 905,
       "stops": 21011
     },
     {
       "date": "2026-12-31",
       "file": "20261231.xml",
-      "sha256": "7cc58c7ddf9c2b0e8d7b9ab363148f0935a100ad25b571ba3251112eebb2cefd",
+      "sha256": "c584d98bc0afc114ddd1cefd0d8eefb7aee0e63b374ed6e568484826dfd83c82",
       "trips": 908,
       "stops": 21028
+    },
+    {
+      "date": "2027-01-01",
+      "file": "20270101.xml",
+      "sha256": "8b63b364cca7b99d6d4249b665ac62d6fa139403c4ce7532451f122e8603c7a2",
+      "trips": 907,
+      "stops": 20996
+    },
+    {
+      "date": "2027-01-02",
+      "file": "20270102.xml",
+      "sha256": "460caafe18220789fc9ee115b65021c555f2ae9d44d67e7f8698efceafec7690",
+      "trips": 905,
+      "stops": 20955
+    },
+    {
+      "date": "2027-01-03",
+      "file": "20270103.xml",
+      "sha256": "0d6c559b194781ede0f1deff364673d6ff5638c8633c9c727cf1e30ed6dcef32",
+      "trips": 914,
+      "stops": 21066
+    },
+    {
+      "date": "2027-01-04",
+      "file": "20270104.xml",
+      "sha256": "5d94cc617d2e5d6e3d0642933eae62b9f48602d7d71b624b0e152f272611122b",
+      "trips": 908,
+      "stops": 21071
+    },
+    {
+      "date": "2027-01-05",
+      "file": "20270105.xml",
+      "sha256": "dfb436cc254027efc205636e2c81ab26d04a8fde1b4014ee13a447624c050eb5",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2027-01-06",
+      "file": "20270106.xml",
+      "sha256": "dfb436cc254027efc205636e2c81ab26d04a8fde1b4014ee13a447624c050eb5",
+      "trips": 905,
+      "stops": 21011
+    },
+    {
+      "date": "2027-01-07",
+      "file": "20270107.xml",
+      "sha256": "dfb436cc254027efc205636e2c81ab26d04a8fde1b4014ee13a447624c050eb5",
+      "trips": 905,
+      "stops": 21011
     }
   ],
-  "pack_sha256": "16683a90d3c71e70838b02f9c77ebbe6f52b8de91c29e7998f8e935a20f88977",
-  "pack_bytes": 9965075
+  "pack_sha256": "bf85848554483dafc2dd25696ac14dcfdeb3c8fbd68dbc278023b72da347e04e",
+  "pack_bytes": 9962349
 }
